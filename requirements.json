@@ -1,0 +1,68 @@
+{
+	"title": "first-draft Requirements",
+	"description": "Requirements for the first-draft app",
+	"requirements": [
+		{
+			"title": "As a drawing starter, I want to be able to control what tools are available on each drawing",
+			"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a drawing starter, I want to be able to control who has access to the drawing",
+				"keywords": ["Collaboration"]
+		{
+				"title": "As a drawing starter, I want to be able to control who can edit the drawing",
+				"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a drawing starter, I want to be able to control what tools are available on each drawing",
+				"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a user, I want to be able to see who else is looking at the drawing",
+				"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a user, I want to be able to identify other users by name",
+				"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a presenter, I want to be able to control what part of the drawing other people are looking at",
+				"keywords": ["Collaboration"]
+		},
+		{
+				"title": "As a user, I want to be able to store, retrieve and delete drawings",
+				"keywords": ["Storage"]
+		},
+		{
+				"title": "As a first-draft integrator, I want to be able to embed into an existing site with existing socket.io connections and routing",
+				"keywords": ["Integration"]
+		},
+		{
+			"title": "As a user, I want to be able to customise the way the interface works, so I can work the way I want to.",
+			"keywords": ["Interface"],
+			"requirements": [
+				{
+					"title": "Be able to customise event / event-modifier bindings"
+				},
+				{
+					"title": "Be able to disable / enable tools"
+				},
+				{
+					"title": "Be able to show hide tool icons"
+				}
+			]
+		},
+		{
+			"title": "As a first-draft integrator, I want to be able to add my own tools, so that I can make tools that aren't included",
+			"keywords": ["Tools"],
+			"requirements": [
+				{
+					"title": "Be able to select loaded tools"
+				},
+				{
+					"title": "Be able to design a tool using a standardised inteface"
+				}
+			]
+		}
+	]
+}
